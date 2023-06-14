@@ -174,7 +174,6 @@ def run_process():
                
                pass
        
-
 # Criar um objeto de bloqueio
 lock = td.Lock()
 
