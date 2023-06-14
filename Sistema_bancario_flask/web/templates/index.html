@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:gray">
+
+
+    <h1>Sistema Bancário Distribuído</h1>
+    <h2>Banco 1</h2>
+    <form action="/send_msg_to_servers" method="post">
+        <div>
+            <div>
+                <h1>De:</h1>
+                 <div>
+                    Banco0 <input type="checkbox" value ="0" name="banco_de"> 
+                    Banco1<input type="checkbox" value ="1" name="banco_de"> 
+                    Banco2 <input type="checkbox" value ="2" name="banco_de">  
+                   
+                 </div>
+                   
+             
+            </div>
+            
+            <div>
+                <h1>Para:</h1>
+                 
+                <div>
+                    Banco0 <input type="checkbox" value ="0" name="banco_para"> 
+                    Banco1<input type="checkbox" value ="1" name="banco_para"> 
+                    Banco2 <input type="checkbox" value ="2" name="banco_para">  
+                   
+                 </div>
+               
+            </div>
+
+            <div>
+                <h2>Tipo de operação</h2>
+                Deposito<input type="checkbox" value="0" name="tipo_operacao">
+                Saque<input type="checkbox" value="1" name="tipo_operacao">
+
+            </div>
+        </div>
+    
+        <div>
+            <div>
+                 <label for="conta_origem">Conta origem: </label>
+            <input type="text" name="conta_origem" id="conta">
+            </div>
+           
+            <div>
+                <label for="conta_destino">Conta destino: </label>
+            <input type="text" name="conta_destino" id="conta">
+            </div>
+            
+            <div>
+                <label for="valor">Valor: </label>
+            <input type="text" name="valor" id="conta">
+            </div>
+            
+        </div>
+        
+    
+        <button type="submit">Enviar</button>
+
+
+    </form>
+    
+</body>
+</html>
